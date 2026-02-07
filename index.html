@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chandresh & Sakshi - Wedding Invitation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wedding invitation for Chandresh & Sakshi - 20 February 2026, Kamla Bhawan, Bhiwani. Indian Wedding." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Decorative floating petals -->
+  <div class="petals">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-names">Chandresh &amp; Sakshi</span>
+        <span class="logo-tagline">Wedding</span>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#countdown" class="nav-link">Countdown</a></li>
+          <li><a href="#blessing" class="nav-link">Blessing</a></li>
+          <li><a href="#couple" class="nav-link">Couple</a></li>
+          <li><a href="#events" class="nav-link">Events</a></li>
+          <li><a href="#venue" class="nav-link">Venue</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#message" class="nav-link">Message</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero js-observe">
+    <div class="hero-overlay"></div>
+    <img src="images/hero.jpg" alt="Chandresh & Sakshi" class="hero-bg" />
+
+    <div class="hero-content container">
+      <p class="hero-intro">Wedding Invitation</p>
+      <h1 class="hero-names">
+        <span class="hero-name hero-name-groom">Chandresh</span>
+        <span class="hero-amp">weds</span>
+        <span class="hero-name hero-name-bride">Sakshi</span>
+      </h1>
+      <p class="hero-subtitle">Celebrating Love &amp; Happiness</p>
+      <p class="hero-date">On Friday, 20<sup>th</sup> February 2026</p>
+
+      <a href="#events" class="btn btn-primary hero-btn">
+        View Wedding Events
+      </a>
+    </div>
+  </section>
+
+  <!-- Countdown Section -->
+  <section id="countdown" class="section section-countdown js-observe">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Countdown to Our Big Day</h2>
+        <p>Join us as we begin our forever on 20 February 2026.</p>
+      </div>
+
+      <div class="countdown-timer" aria-label="Countdown to wedding">
+        <div class="countdown-item">
+          <span id="days" class="countdown-value">00</span>
+          <span class="countdown-label">Days</span>
+        </div>
+        <div class="countdown-item">
+          <span id="hours" class="countdown-value">00</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <div class="countdown-item">
+          <span id="minutes" class="countdown-value">00</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-item">
+          <span id="seconds" class="countdown-value">00</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blessing / Intro Section (from card) -->
+  <section id="blessing" class="section section-blessing js-observe">
+    <div class="container">
+      <p class="blessing-sanskrit" lang="hi">मंगलम् भगवान विष्णु मंगलम्। मंगलम् पुण्डरीकाक्ष मंगलानी हरिः ।।</p>
+      <p class="blessing-sanskrit ganesh" lang="hi">विघ्न हरण मंगल करण, श्री गणपति महाराज ।।<br />प्रथम निमंत्रण आपको, पूरन कीजो काज ।।</p>
+      <div class="section-heading">
+        <h2>Golden Moments</h2>
+      </div>
+      <p class="blessing-text">
+        With new dreams, new aspirations &amp; a desire to achieve new horizons,<br />
+        our children are stepping into a new journey of wedded life.
+      </p>
+      <p class="blessing-hosts">Smt. Santosh Kumari &amp; Sh. Ram Niwas</p>
+      <p class="blessing-invite">
+        Feel privileged &amp; honoured to have your gracious presence &amp; blessings on the auspicious occasion of<br />
+        <strong>The Wedding Ceremony</strong><br />
+        of their beloved loving son
+      </p>
+    </div>
+  </section>
+
+  <!-- About the Couple -->
+  <section id="couple" class="section section-couple js-observe">
+    <div class="container">
+      <div class="section-heading">
+        <h2>The Couple</h2>
+        <p>Two souls, one beautiful journey.</p>
+      </div>
+
+      <div class="couple-grid">
+        <!-- Groom Card -->
+        <article class="couple-card">
+          <div class="couple-image-wrapper">
+            <img src="images/groom.jpg" alt="Groom - Chandresh" class="couple-image" />
+          </div>
+          <div class="couple-content">
+            <h3 class="couple-name">Chandresh</h3>
+            <p class="couple-role">The Groom</p>
+            <p class="couple-text">
+              S/o Late Smt. Ompati Devi &amp; Late Sh. Rattan Lal
+            </p>
+          </div>
+        </article>
+
+        <!-- Bride Card -->
+        <article class="couple-card">
+          <div class="couple-image-wrapper">
+            <img src="images/bride.jpg" alt="Bride - Sakshi" class="couple-image" />
+          </div>
+          <div class="couple-content">
+            <h3 class="couple-name">Sakshi</h3>
+            <p class="couple-role">The Bride</p>
+            <p class="couple-text">
+              D/o Smt. Birmati &amp; Sh. Sunil Kumar<br />
+              Naya Bazar, Bhiwani
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wedding Events (from card) -->
+  <section id="events" class="section section-events js-observe">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Wedding Events</h2>
+        <p>Join us in each cherished ritual.</p>
+      </div>
+
+      <div class="events-timeline">
+        <div class="event-day-block">
+          <p class="event-day-title">Thursday, 19<sup>th</sup> February 2026</p>
+          <article class="event-card">
+            <div class="event-icon"><i class="fa-solid fa-utensils"></i></div>
+            <div class="event-body">
+              <h3 class="event-title">Pritibhoj</h3>
+              <p class="event-meta">12:15 p.m.</p>
+            </div>
+          </article>
+          <article class="event-card">
+            <div class="event-icon"><i class="fa-solid fa-gem"></i></div>
+            <div class="event-body">
+              <h3 class="event-title">Tilak Ceremony</h3>
+              <p class="event-meta">2:15 p.m.</p>
+              <p class="event-location">At Our Residence, VPO Haluwas, Bhiwani</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="event-day-block">
+          <p class="event-day-title">Friday, 20<sup>th</sup> February 2026</p>
+          <article class="event-card">
+            <div class="event-icon"><i class="fa-solid fa-horse"></i></div>
+            <div class="event-body">
+              <h3 class="event-title">Ghurchari</h3>
+              <p class="event-meta">4:15 p.m.</p>
+            </div>
+          </article>
+          <article class="event-card event-card-highlight">
+            <div class="event-icon"><i class="fa-solid fa-ring"></i></div>
+            <div class="event-body">
+              <h3 class="event-title">Departure of Barat</h3>
+              <p class="event-meta">5:15 p.m.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Venue Section (from card: Kamla Bhawan) -->
+  <section id="venue" class="section section-venue js-observe">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Wedding Venue</h2>
+        <p>We look forward to welcoming you with open hearts.</p>
+      </div>
+
+      <div class="venue-grid">
+        <div class="venue-details">
+          <h3 class="venue-name">Kamla Bhawan</h3>
+          <p class="venue-address">
+            Court Road, Bhiwani
+          </p>
+          <p class="venue-text">
+            Join us at Kamla Bhawan as we celebrate this royal Indian wedding with
+            traditional rituals, heartfelt blessings, and joyous memories.
+          </p>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Kamla+Bhawan+Court+Road+Bhiwani"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            <i class="fa-solid fa-location-dot"></i>
+            Open in Google Maps
+          </a>
+        </div>
+
+        <div class="venue-map-wrapper">
+          <iframe
+            title="Kamla Bhawan, Court Road, Bhiwani"
+            src="https://www.google.com/maps?q=Kamla+Bhawan+Court+Road+Bhiwani&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section id="gallery" class="section section-gallery js-observe">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Photo Gallery</h2>
+        <p>Some precious moments leading up to the big day.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="images/gallery1.jpg" alt="Gallery image 1" data-full="images/gallery1.jpg" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="images/gallery2.jpg" alt="Gallery image 2" data-full="images/gallery2.jpg" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="images/gallery3.jpg" alt="Gallery image 3" data-full="images/gallery3.jpg" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Modal (Lightbox) -->
+  <div class="modal" id="galleryModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog">
+      <button class="modal-close" id="modalClose" aria-label="Close image">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img src="" alt="Enlarged gallery" class="modal-image" id="modalImage" />
+    </div>
+  </div>
+
+  <!-- Family Invitation (from card) -->
+  <section id="message" class="section section-message js-observe">
+    <div class="container">
+      <div class="message-card">
+        <h2>Family Invitation</h2>
+        <p class="family-invite-line">Precious Invitation From</p>
+        <p class="family-names">Harshita &ndash; Bablu</p>
+        <p class="family-invite-line small">A Cute Invitation From Little Family Flowers</p>
+        <p class="family-names">Ivaan, Nishant, Jatin</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (from card: Cordial Invitation & Compliments) -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-block">
+        <h3 class="footer-title">A Cordial Invitation From</h3>
+        <p class="footer-name">Ram Niwas & Santosh Kumari</p>
+        <p class="footer-detail">Retd. (Loco Pilot)</p>
+        <p class="footer-address">V.P.O. &ndash; Haluwas, Bhiwani</p>
+        <p class="footer-contact">M. 9729590501, 8950598586</p>
+        <p class="footer-message">
+          Your esteemed presence would be an absolute delight at our magnificent celebration.
+          We warmly invite you to join us and become an integral part of this vibrant and joyous occasion.
+        </p>
+      </div>
+      <div class="footer-block">
+        <h3 class="footer-title">With Best Compliments From</h3>
+        <p class="footer-compliments">
+          Kuldeep, Arun, Chirag, Bhavishya,<br />
+          Anshu, Kabir &amp; All Khangwal Family<br />
+          Relatives &amp; Friends
+        </p>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-thanks">Thank you for being a part of our special day.</p>
+        <p class="footer-copy">&copy; <span id="year"></span> Chandresh &amp; Sakshi Wedding.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
